@@ -13,12 +13,15 @@ public class Main {
         BufferedReader bufferedReader1 = new BufferedReader(new InputStreamReader(System.in));
         int m = Integer.parseInt(bufferedReader.readLine());
         if (n == 1) System.out.println(Convert_Miles_To_Kilometers(m));
-        //if (n== 2) System.out.println(Convert_Kilometers_To_Miles(m));
+        if (n== 2) System.out.println(Convert_Kilometers_To_Miles(m));
 
 
     }
     public static double Convert_Miles_To_Kilometers(int miles){
         return miles/0.62137;
+    }
+    public static double Convert_Kilometers_To_Miles(int kilometers){
+        return kilometers*0.62137;
     }
 
 }
