@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Если Вы хотите перевести мили в киллометры нажмите 1, если киллометры в мили нажмите 2");
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bufferedReader.readLine());
-        System.out.println("Введите число");
+        System.out.println("Введите расстояние");
         BufferedReader bufferedReader1 = new BufferedReader(new InputStreamReader(System.in));
         int m = Integer.parseInt(bufferedReader.readLine());
         if (n == 1) System.out.println(Convert_Miles_To_Kilometers(m));
