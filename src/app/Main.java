@@ -12,9 +12,13 @@ public class Main {
         System.out.println("Введите число");
         BufferedReader bufferedReader1 = new BufferedReader(new InputStreamReader(System.in));
         int m = Integer.parseInt(bufferedReader.readLine());
-        //if (n == 1) System.out.println(Convert_Miles_To_Kilometers(m));
+        if (n == 1) System.out.println(Convert_Miles_To_Kilometers(m));
         //if (n== 2) System.out.println(Convert_Kilometers_To_Miles(m));
 
 
     }
+    public static double Convert_Miles_To_Kilometers(int miles){
+        return miles/0.62137;
+    }
+
 }
